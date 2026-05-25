@@ -75,7 +75,7 @@ class Registration {
         if (phonenumber.matches("^0\\d{9}$")) {
             return true;
         } else {
-            System.out.println("Use South African format starting with 0 and 10 digits.");
+            System.out.println("Use South African format starting with 0 and 10 digits."); 
             return false;
         }
     }
@@ -87,7 +87,7 @@ class Registration {
         System.out.print("Enter Username: ");
         String username = input.nextLine();
 
-        System.out.print("Enter Password: "); 
+        System.out.print("Enter Password: ");
         String password = input.nextLine();
 
         System.out.print("Enter South African Cellphone Number: ");
