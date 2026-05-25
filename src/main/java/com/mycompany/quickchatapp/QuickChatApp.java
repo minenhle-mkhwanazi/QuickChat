@@ -21,7 +21,7 @@ public class QuickChatApp {
             choice = menuInput.nextInt();
             menuInput.nextLine();
 
-            switch (choice) {
+            switch (choice) { 
                 case 1:
                     app.registerUser();
                     break; 
