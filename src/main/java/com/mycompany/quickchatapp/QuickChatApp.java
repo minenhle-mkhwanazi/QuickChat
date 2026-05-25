@@ -75,7 +75,7 @@ class Registration {
         if (phonenumber.matches("^0\\d{9}$")) {
             return true;
         } else {
-            System.out.println("Use South African format starting with 0 and 10 digits."); 
+            System.out.println("Use South African format starting with 0 and 10 digits.");
             return false;
         }
     }
@@ -121,7 +121,7 @@ class Registration {
         if (username.equals(storedUsername) && password.equals(storedPassword)) {
             System.out.println("Login successful! Welcome " + storedUsername);
         } else {
-            System.out.println("Login failed. Incorrect username or password.");
+            System.out.println("Login failed. Incorrect username or password."); 
         }
     }
 }
