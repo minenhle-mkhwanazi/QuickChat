@@ -119,9 +119,9 @@ class Registration {
         String password = input.nextLine();
 
         if (username.equals(storedUsername) && password.equals(storedPassword)) {
-            System.out.println("Login successful! Welcome " + storedUsername);
+            System.out.println("Login successful! Welcome " + storedUsername); 
         } else {
-            System.out.println("Login failed. Incorrect username or password."); 
+            System.out.println("Login failed. Incorrect username or password.");
         }
     }
 }
