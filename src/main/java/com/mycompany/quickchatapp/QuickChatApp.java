@@ -21,7 +21,7 @@ public class QuickChatApp {
             choice = menuInput.nextInt();
             menuInput.nextLine();
 
-            switch (choice) { 
+            switch (choice) {
                 case 1:
                     app.registerUser();
                     break; 
@@ -104,7 +104,7 @@ class Registration {
         }
     }
 
-    // ✅ User Login
+    
     public void userLogin() {
         if (storedUsername == null || storedPassword == null) {
             System.out.println("No account found. Please register first.");
