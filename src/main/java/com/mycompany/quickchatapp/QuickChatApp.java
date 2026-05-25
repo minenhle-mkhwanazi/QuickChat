@@ -87,10 +87,10 @@ class Registration {
         System.out.print("Enter Username: ");
         String username = input.nextLine();
 
-        System.out.print("Enter Password: ");
+        System.out.print("Enter Password: "); 
         String password = input.nextLine();
 
-        System.out.print("Enter South African Cellphone Number: "); 
+        System.out.print("Enter South African Cellphone Number: ");
         String phonenumber = input.nextLine();
 
         if (checkUsername(username) && checkPassword(password) && checkPhonenumber(phonenumber)) {
